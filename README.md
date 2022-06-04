@@ -1,4 +1,4 @@
-# HideVonageAPIKey
+# Hide Vonage API Key from Chrome
 
 Instructions
 
