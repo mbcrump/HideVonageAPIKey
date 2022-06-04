@@ -1,0 +1,13 @@
+{
+    "name": "API Key Hider",
+    "description": "A chrome extension to blur your Vonage API keys",
+    "version": "1.0",
+    "author": "Amanda Cavallaro",
+    "manifest_version": 3,
+    "content_scripts": [{
+      "matches": [
+        "https://dashboard.nexmo.com/*"
+      ],
+      "js": ["index.js"]
+    }]
+}
